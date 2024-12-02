@@ -8,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(180deg, rgba(211,226,249,1) 0%, rgba(199,216,244,1) 43%, rgba(135,172,214,1) 100%);
+  background: linear-gradient(180deg, rgba(211, 226, 249, 1) 0%, rgba(199, 216, 244, 1) 43%, rgba(135, 172, 214, 1) 100%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,6 +21,7 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
@@ -49,9 +50,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -62,9 +65,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
@@ -84,9 +89,12 @@ button:focus-visible {
   height: 819px;
   transform-style: preserve-3d;
   transform: perspective(1000px);
-  background-size: contain;  /* Makes the image fit inside the container */
-  background-position: center;  /* Centers the image within the container */
-  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-size: contain;
+  /* Makes the image fit inside the container */
+  background-position: center;
+  /* Centers the image within the container */
+  background-repeat: no-repeat;
+  /* Prevents the image from repeating */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,10 +131,12 @@ button:focus-visible {
   height: 200px;
   width: 100%;
   font-size: 70px;
+  user-select: none;
 }
 
 .line {
-  background: linear-gradient(90deg, rgba(235,105,240,1) 0%, rgba(154,151,207,1) 25%, rgba(92,165,217,1) 50%, rgba(48,202,217,1) 75%, rgba(50,204,182,1) 100%);  height: 15px;
+  background: linear-gradient(90deg, rgba(235, 105, 240, 1) 0%, rgba(154, 151, 207, 1) 25%, rgba(92, 165, 217, 1) 50%, rgba(48, 202, 217, 1) 75%, rgba(50, 204, 182, 1) 100%);
+  height: 15px;
   width: 100%;
   margin-top: 25px;
 }
@@ -154,6 +164,7 @@ button:focus-visible {
     opacity: 0;
     transform: translateY(100%);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -168,6 +179,7 @@ button:focus-visible {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(215%);
   }
@@ -179,11 +191,12 @@ button:focus-visible {
 }
 
 @keyframes fadeInWhite {
-  from{
-      opacity: 0;
+  from {
+    opacity: 0;
   }
-  to{
-      opacity: 1;
+
+  to {
+    opacity: 1;
   }
 }
 
